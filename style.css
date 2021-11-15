@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  background-color: #020202;
+}
+.container {
+  height:100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+.card {
+  height: 20rem;
+  width: 15rem;
+  background: rgba(38, 0, 6, 0.966);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.light:hover {
+  background: rgba(38, 0, 6, 0.966);
+  background: radial-gradient(
+    circle,
+    rgba(38, 0, 6, 1) 0%,
+    rgba(204, 180, 180, 0.425) 0%,
+    rgba(38, 0, 6, 1) 100%
+  );
+}
+
+.img-laptop {
+  height: 16rem;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.img-phone {
+  width: 45%;
+  margin: 20% 30%;
+  overflow: hidden;
+}
+
+.img-mini {
+  height: 12rem;
+  margin: 15% 25%;
+}
+
+.light {
+  height: 100%;
+  width: 100%;
+  background: rgba(38, 0, 6, 0.966);
+  background: radial-gradient(
+    circle,
+    rgba(38, 0, 6, 1) 0%,
+    rgba(204, 180, 180, 0.425) 0%,
+    rgba(38, 0, 6, 1) 55%
+  );
+  z-index: 6;
+  overflow: hidden;
+}
+
+h3 {
+  margin: 0;
+  color: #fff;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+}
